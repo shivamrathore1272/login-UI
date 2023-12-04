@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500;700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .main-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100%; 
+ }
+
+ .container {
+     position: relative;
+     width: 410px;
+     background: #ffffff;
+     border: 1px solid #dedede;
+     text-align: center;
+     padding: 25px 16px;
+ }
+
+ .logo {
+     width: 158px;
+     height: 72px;
+     object-fit: contain;
+ }
+
+ .brand {
+     margin-top: 5px;
+     position: relative;
+
+ } 
+
+ .message {
+     color: #7B7B7B;
+     font-family: Montserrat;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-top: 10px;
+ }
+
+ .margin-subheading {
+     margin: 10px 0px 55px 0px;
+ }
+
+ .logMessage {
+     color: #272323;
+     font-family: Montserrat;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-top: 15px;
+ }
+
+ .login-form {
+     margin-top: 30px;
+ }
+
+ .inputFieldContainer {
+     display: flex;
+     height: 48px;
+     margin: 10px auto 0px;
+     border-radius: 4px;
+     border: 1px solid #E6E6E6;
+     background: #FFF;
+     box-shadow: 3px 4px 8px 0px rgba(191, 191, 191, 0.20);
+ }
+
+
+ .checkBox-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font: normal normal 300 14px/33px Montserrat;
+     margin: 10px 0px 18px 0px;
+     padding: 0px 10px;
+ }
+
+ .checkBox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font: normal normal 300 14px/33px Montserrat;
+     gap: 10px;
+ }
+
+ .inputCheckBox {
+     width: 18px;
+     height: 18px;
+     cursor: pointer;
+ }
+
+ .Forgot-password {
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+ .inputIcon {
+     margin: auto 13px;
+ }
+
+ .inputField {
+     border: none;
+     outline: none;
+     font: normal normal normal 16px/33px Montserrat;
+     letter-spacing: 0px;
+     color: #a5a5a5;
+     width: 80%;
+ }
+
+ .sign-up-btn {
+     all: unset;
+     width: 100%;
+     height: 48px;
+     margin: 20px auto 0px;
+     border-radius: 4px;
+     color: #ffffff;
+     font: normal normal 900 18px/33px Montserrat;
+     border-radius: 4px;
+     background: #000;
+     box-shadow: 3px 4px 8px 0px rgba(191, 191, 191, 0.20);
+     cursor: pointer;
+     border: 1px solid #000;
+ }
+
+ .sign-up-btn:hover {
+     background-color: #fff;
+     border: 1px solid #000;
+     color: #000;
+ }
+
+
+ .already-account {
+     color: #636363;
+     font: normal normal 400 14px/33px Montserrat;
+     margin-top: 4px;
+ }
+
+ .redirect-sign {
+     color: #000;
+     font: normal normal 600 14px/33px Montserrat;
+     text-decoration-line: underline;
+     cursor: pointer;
+ }
+
+ .continueWithContainer {
+     display: flex;
+     width: 370px;
+     justify-content: center;
+     margin: 10px auto 0px auto;
+ }
+
+ .sso-login-divider {
+     margin: 45px auto 0px auto;
+ }
+
+ .continueWith {
+     text-align: center;
+     font: normal normal 500 14px/33px Montserrat;
+     letter-spacing: 0px;
+     color: #000000;
+     white-space: nowrap;
+     padding: 0px 3px;
+ }
+
+ .horizontalLine {
+     width: 125px;
+     margin: auto 0px auto;
+ }
+
+ .sso-login {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-top: 5px;
+ }
+
+ .google-login {
+     width: 50%;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 4px;
+     border: 1px solid #000;
+     background: #FFF;
+     color: #757575;
+     gap: 4px;
+     font: normal normal 200 14px/33px Montserrat;
+     cursor: pointer;
+ }
+
+ .facebook-login {
+     width: 50%;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 4px;
+     border: 1px solid #1A77F2;
+     background: #1A77F2;
+     color: #FFF;
+     gap: 4px;
+     font: normal normal 200 14px/33px Montserrat;
+     cursor: pointer;
+ }
+
+ .apple-login {
+     height: 40px;
+     margin: 18px 0px 0px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 4px;
+     border: 1px solid #000;
+     background: #FFF;
+     gap: 8px;
+     font: normal normal 200 14px/33px Montserrat;
+     cursor: pointer;
+ }

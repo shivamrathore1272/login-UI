@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%; 
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    background: #ffffff;
+    border: 1px solid #dedede;
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 12px;
+}
+
+.Title {
+    color: #272323;
+    font: normal normal 800 24px/33px Montserrat;
+    margin: 0px 0px 40px 0px;
+}
+
+.message {
+    color: #7B7B7B;
+    font: normal normal 400 14px/20px Montserrat;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputField {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    text-align: center;
+    font: normal normal normal 24px/30px Montserrat;
+    letter-spacing: 0px;
+    width: 15%;
+}
+
+.inputField:focus {
+    border-bottom: 1px solid #A5A5A5;
+}
+
+.otpForm {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.resend-otp-container {
+    margin-top: 30px;
+}
+
+.resend-otp {
+    text-decoration: underline;
+    color: #000;
+    font: normal normal 600 14px/30px Montserrat;
+    letter-spacing: 0.28px;
+    cursor: pointer;
+}
+
+.resend-otp-time {
+    color: #7B7B7B;
+    font: normal normal 400 14px/30px Montserrat;
+    letter-spacing: 0.28px;
+}
+
+.sign-up-btn {
+    all: unset;
+    width: 100%;
+    height: 48px;
+    margin: 10px auto 0px;
+    border-radius: 4px;
+    color: #ffffff;
+    font: normal normal 900 18px/33px Montserrat;
+    border-radius: 4px;
+    background: #000;
+    border: 1px solid #000; 
+    box-shadow: 3px 4px 8px 0px rgba(191, 191, 191, 0.20);
+    cursor: pointer;
+}
+.sign-up-btn:hover{
+    background-color: #fff;
+    border: 1px solid #000; 
+    color: #000;
+}
+
+.incorrect-password {
+    color: #E91212;
+    font: normal normal 400 14px/33px Montserrat;
+    margin-top: 4px;
+}
